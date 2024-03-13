@@ -21,7 +21,8 @@ import Row from './Row.cjs';
 import Column from './Column.cjs';
 
 /* Content */
-import { H1, H2, H3, H4, H5, H6, P, Ol, Ul, Li, A } from './Typography.cjs';
+import pkg from './Typography.cjs';
+const { H1, H2, H3, H4, H5, H6, P, Ol, Ul, Li, A } = pkg;
 import Hr from './Hr.cjs';
 import Button from './Button.cjs';
 import Img from './Img.cjs';
