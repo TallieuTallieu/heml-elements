@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _utils = _interopRequireWildcard(require("@heml/utils"));
-var _Subject = _interopRequireDefault(require("./Subject"));
+var _Subject = _interopRequireDefault(require("./Subject.cjs"));
 var _Style = _interopRequireDefault(require("./Style"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
