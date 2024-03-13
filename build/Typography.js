@@ -57,7 +57,7 @@ var P = exports.P = createTextElement('p');
 var Ol = exports.Ol = createTextElement('ol');
 var Ul = exports.Ul = createTextElement('ul');
 var Li = exports.Li = createTextElement('li');
-var A = exports.A = (0, _utils.createElement)('a', {
+export var A = exports.A = (0, _utils.createElement)('a', {
   attrs: true,
   defaultAttrs: {
     href: '#'
