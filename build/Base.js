@@ -1,5 +1,5 @@
 import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unused-vars
-import Meta from './Meta';
+import Meta from './Meta.js';
 import isAbsoluteUrl from 'is-absolute-url';
 import { resolve } from 'url';
 import { has, first } from 'lodash';
