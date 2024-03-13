@@ -19,7 +19,7 @@ var background = _utils.cssGroups.background,
   padding = _utils.cssGroups.padding,
   font = _utils.cssGroups.font,
   text = _utils.cssGroups.text;
-var _default = exports["default"] = (0, _utils.createElement)('body', {
+export default exports["default"] = (0, _utils.createElement)('body', {
   unique: true,
   parent: ['heml'],
   containsText: true,
