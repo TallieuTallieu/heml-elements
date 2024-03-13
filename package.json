@@ -14,9 +14,9 @@
   },
   "author": "SparkPost <dev-relations@sparkpost.com> (https://sparkpost.com)",
   "files": [
-    "src/"
+    "build/"
   ],
-  "main": "src/index.js",
+  "main": "build/index.js",
   "publishConfig": {
     "access": "public"
   },
