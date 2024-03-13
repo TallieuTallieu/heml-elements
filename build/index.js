@@ -9,7 +9,7 @@ import Subject from './Subject.cjs';
 import Preview from './Preview.cjs';
 import Base from './Base.js';
 import Font from './Font.cjs';
-import Style from './Style.cjs';
+import Style from './Style.js';
 
 /* Table */
 import table from './Table.cjs';
