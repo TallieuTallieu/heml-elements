@@ -1,6 +1,6 @@
 import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unused-vars
 import hemlstyles from '@heml/styles';
-import { castArray, isEqual, uniqWith, sortBy } from 'lodash';
+import lodash from 'lodash';
 const START_EMBED_CSS = `/*!***START:EMBED_CSS*****/`;
 const START_INLINE_CSS = `/*!***START:INLINE_CSS*****/`;
 let styleMap;
@@ -24,7 +24,7 @@ export default createElement('style', {
     };
     for (let element of elements) {
       if (element.postcss) {
-        options.plugins = options.plugins.concat(castArray(element.postcss));
+        options.plugins = options.plugins.concat(lodash.castArray(element.postcss));styl
       }
       if (element.rules) {
         options.elements[element.tagName] = element.rules;
@@ -59,8 +59,8 @@ export default createElement('style', {
 
     /** combine the non-ignored css to be combined */
     for (let [element, styles] of styleMap) {
-      styles = uniqWith(styles, isEqual);
-      styles = element === 'global' ? styles : sortBy(styles, ['embed', 'css']);
+      styles = lodash.uniqWith(styles, lodash.isEqual);
+      styles = element === 'global' ? styles : lodash.sortBy(styles, ['embed', 'css']);
       styles.forEach(({
         ignore,
         embed,
