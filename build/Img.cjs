@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _utils = _interopRequireWildcard(require("@heml/utils"));
-var _Style = _interopRequireDefault(require("./Style"));
+var _Style = _interopRequireDefault(import("./Style"));
 var _lodash = require("lodash");
 var _fsExtra = _interopRequireDefault(require("fs-extra"));
 var _isAbsoluteUrl = _interopRequireDefault(require("is-absolute-url"));
