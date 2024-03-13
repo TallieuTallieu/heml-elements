@@ -2,8 +2,7 @@ import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unu
 import Meta from './Meta.js';
 import isAbsoluteUrl from 'is-absolute-url';
 import { resolve } from 'url';
-import has from 'lodash/has';
-import first from 'lodash/first';
+import { has, first } from 'lodash';
 export default createElement('base', {
   parent: ['head'],
   children: false,
