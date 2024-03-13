@@ -12,7 +12,8 @@ import Font from './Font.cjs';
 import Style from './Style.cjs';
 
 /* Table */
-import { Table, Tr, Td } from './Table.cjs';
+import table from './Table.cjs';
+const { Table, Tr, Td } = table;
 
 /* Grid */
 import Block from './Block.cjs';
@@ -21,8 +22,8 @@ import Row from './Row.cjs';
 import Column from './Column.cjs';
 
 /* Content */
-import pkg from './Typography.cjs';
-const { H1, H2, H3, H4, H5, H6, P, Ol, Ul, Li, A } = pkg;
+import typo from './Typography.cjs';
+const { H1, H2, H3, H4, H5, H6, P, Ol, Ul, Li, A } = typo;
 import Hr from './Hr.cjs';
 import Button from './Button.cjs';
 import Img from './Img.cjs';
