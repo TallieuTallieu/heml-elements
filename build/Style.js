@@ -1,11 +1,11 @@
-import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unused-vars
+import utils from '@heml/utils'; // eslint-disable-line no-unused-vars
 import hemlstyles from '@heml/styles';
 import lodash from 'lodash';
 const START_EMBED_CSS = `/*!***START:EMBED_CSS*****/`;
 const START_INLINE_CSS = `/*!***START:INLINE_CSS*****/`;
 let styleMap;
 let options;
-export default createElement('style', {
+export default utils.createElement('style', {
   parent: ['head'],
   attrs: ['for', 'heml-embed'],
   defaultAttrs: {
