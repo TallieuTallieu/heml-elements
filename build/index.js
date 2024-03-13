@@ -5,7 +5,7 @@ import Body from './Body.cjs';
 
 /* Meta */
 import Meta from './Meta.cjs';
-import Subject from './Subject.cjs';
+import Subject from './Subject.js';
 import Preview from './Preview.cjs';
 import Base from './Base.js';
 import Font from './Font.cjs';
