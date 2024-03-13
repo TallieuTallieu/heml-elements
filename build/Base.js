@@ -2,7 +2,7 @@ import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unu
 import Meta from './Meta.js';
 import isAbsoluteUrl from 'is-absolute-url';
 import { resolve } from 'url';
-import { has, first } from 'lodash';
+import lodash from 'lodash';
 export default createElement('base', {
   parent: ['head'],
   children: false,
@@ -17,12 +17,12 @@ export default createElement('base', {
   preRender({
     $
   }) {
-    const base = first($.findNodes('base'));
+    const base = lodash.first($.findNodes('base'));
     if (base) {
       const baseUrl = base.attr('href');
       $('[href], [src]').each((i, node) => {
-        const attr = has(node.attribs, 'href') ? 'href' : 'src';
-        if (has(node.attribs, attr) && !isAbsoluteUrl(node.attribs[attr])) {
+        const attr = lodash.has(node.attribs, 'href') ? 'href' : 'src';
+        if (lodash.has(node.attribs, attr) && !isAbsoluteUrl(node.attribs[attr])) {
           node.attribs[attr] = resolve(baseUrl, node.attribs[attr]);
         }
       });
