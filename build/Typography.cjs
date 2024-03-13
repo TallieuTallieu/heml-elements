@@ -47,17 +47,17 @@ function createTextElement(name) {
     }
   }, element));
 }
-export var H1 = exports.H1 = createTextElement('h1');
-export var H2 = exports.H2 = createTextElement('h2');
-export var H3 = exports.H3 = createTextElement('h3');
-export var H4 = exports.H4 = createTextElement('h4');
-export var H5 = exports.H5 = createTextElement('h5');
-export var H6 = exports.H6 = createTextElement('h6');
-export var P = exports.P = createTextElement('p');
-export var Ol = exports.Ol = createTextElement('ol');
-export var Ul = exports.Ul = createTextElement('ul');
-export var Li = exports.Li = createTextElement('li');
-export var A = exports.A = (0, _utils.createElement)('a', {
+var H1 = exports.H1 = createTextElement('h1');
+var H2 = exports.H2 = createTextElement('h2');
+var H3 = exports.H3 = createTextElement('h3');
+var H4 = exports.H4 = createTextElement('h4');
+var H5 = exports.H5 = createTextElement('h5');
+var H6 = exports.H6 = createTextElement('h6');
+var P = exports.P = createTextElement('p');
+var Ol = exports.Ol = createTextElement('ol');
+var Ul = exports.Ul = createTextElement('ul');
+var Li = exports.Li = createTextElement('li');
+var A = exports.A = (0, _utils.createElement)('a', {
   attrs: true,
   defaultAttrs: {
     href: '#'

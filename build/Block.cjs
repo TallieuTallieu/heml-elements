@@ -24,7 +24,7 @@ var background = _utils.cssGroups.background,
   height = _utils.cssGroups.height,
   table = _utils.cssGroups.table,
   box = _utils.cssGroups.box;
-export default exports["default"] = (0, _utils.createElement)('block', {
+exports["default"] = (0, _utils.createElement)('block', {
   containsText: true,
   rules: {
     '.block': [{

@@ -1,7 +1,7 @@
 import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unused-vars
 
 let metaMap;
-export default createElement('meta', {
+createElement('meta', {
   attrs: true,
   parent: ['head'],
   preRender() {

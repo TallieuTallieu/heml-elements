@@ -23,7 +23,7 @@ var background = _utils.cssGroups.background,
   text = _utils.cssGroups.text,
   font = _utils.cssGroups.font,
   box = _utils.cssGroups.box;
-export default exports["default"] = (0, _utils.createElement)('button', {
+exports["default"] = (0, _utils.createElement)('button', {
   attrs: ['href', 'target'],
   defaultAttrs: {
     href: '#'

@@ -1,6 +1,6 @@
 import HEML, { createElement } from '@heml/utils'; // eslint-disable-line no-unused-vars
 import Meta from './Meta.cjs';
-export default createElement('subject', {
+createElement('subject', {
   parent: ['head'],
   unique: true,
   render(attrs, contents) {

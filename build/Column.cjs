@@ -17,7 +17,7 @@ var background = _utils.cssGroups.background,
   border = _utils.cssGroups.border,
   borderRadius = _utils.cssGroups.borderRadius;
 var breakpoint = 600;
-export default exports["default"] = (0, _utils.createElement)('column', {
+exports["default"] = (0, _utils.createElement)('column', {
   attrs: ['small', 'large'],
   parent: ['row'],
   defaultAttrs: {
